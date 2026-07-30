@@ -1,0 +1,10 @@
+[build]
+  command = "bun run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  # Uncomment and set these if you are not using the included .env file.
+  # VITE_SUPABASE_URL = "https://your-project.supabase.co"
+  # VITE_SUPABASE_PUBLISHABLE_KEY = "your-publishable-key"
+
